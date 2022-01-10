@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ArmstrongNumber {
     public static void main(String[] args) {
 
-        int n;
+        int n=0;
         System.out.println("Enter the number between 1 to 999 to check its Armstrong number or not:");
         Scanner sc=new Scanner(System.in);
         n=sc.nextInt();
@@ -16,8 +16,8 @@ public class ArmstrongNumber {
             int b=n/10; //b=15
             int c=b%10; //c=5
             int e=b/10; //e=1
-
             int f=(a*a*a)+(c*c*c)+(e*e*e);
+
             if(f==n)
                 System.out.println("This is an Armstrong number");
             else
@@ -25,3 +25,4 @@ public class ArmstrongNumber {
         }
     }
 }
+//this is agam
