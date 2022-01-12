@@ -3,7 +3,7 @@ package com.agam_programs;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Armyproblem {
+public class ArmyproblemArrayList {
     public static void main(String[] args) {
         int soldiers;
         int temp=0, temp1=0;
@@ -25,7 +25,13 @@ public class Armyproblem {
                 temp1++;
             }
         }
+
         System.out.println("Total no of soldiers having even number of weapons "+temp);
         System.out.println("Total no of soldiers having odd number of weapons "+temp1);
+
+        if(temp<temp1)
+            System.out.println("Army will Not Win");
+        else
+            System.out.println("Army will Win");
     }
 }
