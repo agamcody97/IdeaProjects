@@ -3,6 +3,10 @@ package com.agam_programs;
 import java.util.Scanner;
 
 public class LuckyFourProblem {
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     public static void main(String[] args) {
                 int num=0,n=0,x=0, no=0;
                  Scanner sc=new Scanner(System.in);
