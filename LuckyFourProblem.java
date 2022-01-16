@@ -17,7 +17,7 @@ public class LuckyFourProblem {
                           n++;
                     }
                     System.out.println(""+n);
-                     n=0;
+                     n=0; //to reset the value of n after the first integer is checked
                  }
     }
 }
